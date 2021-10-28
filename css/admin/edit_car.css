@@ -1,0 +1,595 @@
+.edit_main_section{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: start;
+	min-height: 80%;
+}
+.car_views_section{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: start;
+}
+.edit_car_section{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: start;
+}
+.car_views_section .edit_car_section_h1{
+	font-size: 20px;
+	margin-top: 3%;
+	margin-left: 5%;
+	border-bottom: 2px solid #999;
+	padding: 5px 0;
+}
+
+
+.edit_car_section .add_car_form{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:row;
+	        flex-direction:row;
+	margin:5% 4%;
+
+	width: 100%;
+}
+.edit_car_section .add_car_form .add_car_block{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:row;
+	        flex-direction:row;
+	width:100%;
+	margin-right: 3%;
+}
+
+.edit_car_section .add_car_form .add_car_block div{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-flex:1;
+	    -ms-flex:1;
+	        flex:1;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	width:100%;
+	padding:5px;
+	margin-right:3%;
+}
+
+.edit_car_section .add_car_form .add_car_block .car_description_block{
+	-webkit-box-flex:1.8;
+	    -ms-flex:1.8;
+	        flex:1.8;
+}
+
+
+
+
+.edit_car_section .add_car_form .add_car_block div div{
+	font-size:13pt;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	padding:5px;
+}
+
+.edit_car_section .add_car_form .add_car_block div div span{
+	padding:5px;
+	border-bottom: 1px solid #999;
+	margin-bottom:10px;
+}
+
+.edit_car_section .add_car_form .add_car_block div div input{
+	padding:5px;
+	margin-top: 10px;
+	width:96.5%;
+	border-radius: 5px;
+	outline:none;
+	-webkit-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+	border: 1px solid #999;
+	font-size:13pt;
+}
+
+.edit_car_section .add_car_form .add_car_block div div .warning_span{
+	display: none;
+	font-weight: normal;
+	text-align: right;
+	color: red;	
+	margin: 0;
+	width: 96%;
+	font-size: 16px;
+	border: none;
+}
+
+.edit_car_section .add_car_form .add_car_block div div select{
+	width:100%;
+	margin-top: 10px;
+	font-size:13pt;
+	border:  1px solid #999;
+	color: black;
+	outline:none;
+	padding:5px;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	border-radius: 5px;
+	-moz-appearance:none; /* Firefox */
+  	-webkit-appearance:none; /* Safari and Chrome */
+  	appearance:none;
+	background: url(/images/chevron_down.png) no-repeat white;
+	background-position: bottom 8px right 4px;
+	background-size: 12px 12px;
+	-webkit-transition: all 0.2s ease;
+}
+
+.edit_car_section .add_car_form .add_car_block div div select option{
+	color:black;
+}
+
+.edit_car_section .add_car_form .add_car_block div div select option[value="0"]{
+	color: #808080;
+}
+
+.edit_car_section .add_car_form .add_car_block div div textarea{
+	padding:5px;
+	margin-top: 10px;
+	height:230px;
+	width:96.5%;
+	border-radius: 5px;
+	outline:none;
+	border: 1px solid #999;
+	font-size:12pt;
+	resize:none;
+	-webkit-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+	margin-bottom:5px;
+}
+
+.edit_car_section .add_car_form .add_car_block div .upload_car_img{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:column;
+	        flex-direction:column;	
+}
+
+.edit_car_section .add_car_form .add_car_block div .upload_car_img .img_op{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.edit_car_section .add_car_form .add_car_block div .upload_car_img .img_op div{
+	width: 5%;
+	border: 1px solid #999;
+	cursor:pointer;
+	padding:7px;
+	font-size:13pt;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	border-radius:5px;
+	background:white;
+
+}
+
+.edit_car_section .add_car_form .add_car_block div div label{
+	border: 1px solid #999;
+	cursor:pointer;
+	-webkit-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+	padding:5px;
+	font-size:13pt;
+	border-radius:5px;
+	background:white;
+	width: 60%;
+	text-align:center;
+}
+
+.edit_car_section .add_car_form .add_car_block div div label:hover{
+		background: #ffe0a6;	
+}
+
+.edit_car_section .add_car_form .add_car_block div div label i{
+	margin-left:20px;
+}
+
+.edit_car_section .add_car_form button{
+	margin-top:10px;
+		-webkit-transition: all .6s ease;
+		-o-transition: all .6s ease;
+		transition: all .6s ease;
+	border: 1px solid #999;
+	color: black;
+	font-weight: normal;
+	cursor:pointer;
+	padding:5px;
+	font-size:13pt;
+	border-radius:5px;
+	background:white;
+	width:50%;
+}
+
+.edit_car_section .add_car_form button:hover{
+	background: #ffe0a6;	
+}
+
+
+
+.edit_main_section .car_views_section .carInfo_slide_block{
+	margin-left: 5%;
+	margin-top: 5%;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	width: 500px;
+	height: 350px;
+	border-radius:5px;
+	-webkit-box-shadow: 0 0 2px black;
+	        box-shadow: 0 0 2px black;
+	background:white;
+}
+.carInfo_slide{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	width:100%;
+	border-radius:5px;	
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	-webkit-transition: all.2s ease;
+	
+	-o-transition: all.2s ease;
+	
+	transition: all.2s ease;
+}
+
+.edit_img{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	-webkit-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+	margin-left: 80%;
+	margin-top: 20%;
+}
+
+.edit_img #deleteImg, .edit_img #renameImg{
+	background: none;
+	border: none;
+	outline: none;
+	margin: 0 5px;
+	text-align: center;
+	cursor: pointer;
+  padding: 6px 8px;
+  color: #999;
+  font-size:20px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.edit_img #deleteImg:hover, .edit_img #renameImg:hover{
+	background-color: rgba(0,0,0,0.8);
+  color:white;
+}
+
+.carInfo_prev, .carInfo_next {
+  cursor: pointer;
+  padding: 10px;
+  color: #999;
+  font-size:18pt;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.carInfo_prev_next{
+	margin: 32% 3% 0% 3%;
+	border-radius:5px;	
+	display:-webkit-box;	
+	display:-ms-flexbox;	
+	display:flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:row;
+	        flex-direction:row;
+	-webkit-box-pack:justify;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+}
+
+.carInfo_prev:hover, .carInfo_next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color:white;
+}
+
+
+@media screen and (max-width: 1350px){
+
+
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		width: 400px;
+		height: 300px;
+
+	}
+
+	.carInfo_prev_next{
+		margin: 33% 3% 0% 3%;
+	}
+
+}
+
+@media screen and (max-width: 1290px){
+
+	.edit_img{
+		margin-top: 19%;
+		margin-left: 74%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		width: 350px;
+		height: 250px;
+
+	}
+
+	.carInfo_prev_next{
+		margin: 31% 3% 0% 3%;
+	}
+
+	.edit_img{
+		margin-top: 16%;
+		margin-left: 74%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1100px){
+
+	
+	.edit_car_section .add_car_form .add_car_block{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		    -ms-flex-direction:column;
+		        flex-direction:column;
+		margin-right: 10%;
+		margin-left: 4%;
+	}
+
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		width: 500px;
+		height: 350px;
+
+	}
+
+	.carInfo_prev_next{
+		margin: 32% 3% 0% 3%;
+	}
+
+	.edit_img{
+		margin-top: 20%;
+		margin-left: 80%;
+	}
+
+}
+
+
+@media screen and (max-width: 900px){
+
+	
+
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		width: 400px;
+		height: 300px;
+
+	}
+
+	.carInfo_prev_next{
+		margin: 33% 3% 0% 3%;
+	}
+
+	.edit_img{
+		margin-top: 20%;
+		margin-left: 75%;
+	}
+
+
+}
+
+@media screen and (max-width: 750px){
+
+	
+.edit_main_section .car_views_section .carInfo_slide_block{
+		width: 350px;
+		height: 250px;
+
+	}
+
+	.carInfo_prev_next{
+		margin: 31% 3% 0% 3%;
+	}
+
+	.edit_img{
+		margin-top: 16%;
+		margin-left: 73%;
+	}
+
+	.edit_car_section .add_car_form button{
+		width:60%;
+	}
+
+	.edit_car_section .add_car_form .add_car_block div div label{
+		width: 70%;
+	}
+
+}
+
+@media screen and (max-width: 650px){
+	.edit_main_section{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+
+	}
+
+	.edit_car_section .add_car_form .add_car_block{
+		margin-right: 8%;
+		margin-bottom: 5%;
+	}
+
+	.edit_car_section .add_car_form{
+		margin:0;
+	}
+
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		width: 90%;
+		height: 380px;
+	}
+
+	.car_views_section{
+		margin: 0;
+		width: 100%;
+	}
+
+	.edit_img{
+		margin-left: 82%;
+		margin-top: 120px;
+	}	
+}
+
+@media screen and (max-width: 600px){
+
+	.edit_img{
+		margin-top: 130px;
+	}	
+
+}
+
+@media screen and (max-width: 550px){
+
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		width: 90%;
+		height: 325px;
+	}
+
+	.edit_img{
+		margin-left: 79%;
+		margin-top: 90px;
+	}	
+}
+
+
+@media screen and (max-width: 500px){
+
+	.edit_img{
+		margin-left: 77%;
+		margin-top: 80px;
+	}	
+
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		height: 300px;
+	}
+}
+
+
+
+@media screen and (max-width: 450px){
+
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		height: 280px;
+	}
+
+	.edit_img{
+			margin-left: 76%;
+			margin-top: 68px;
+	}	
+}
+
+
+@media screen and (max-width: 400px){
+		.edit_img{
+			margin-left: 74%;
+			margin-top: 55px;
+	}	
+	
+	.edit_main_section .car_views_section .carInfo_slide_block{
+		height: 250px;
+	}
+}

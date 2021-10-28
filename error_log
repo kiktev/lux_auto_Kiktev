@@ -1,0 +1,351 @@
+[23-Jun-2021 14:40:51 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:35
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(26): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 35
+[23-Jun-2021 14:40:55 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:35
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(26): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 35
+[23-Jun-2021 14:40:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:40:57 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:35
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(26): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 35
+[23-Jun-2021 14:40:58 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:40:59 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:41:00 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:41:03 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:41:17 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:41:20 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:41:23 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:35
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(26): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 35
+[23-Jun-2021 14:42:05 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:35
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(26): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 35
+[23-Jun-2021 14:42:20 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:42:22 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:42:25 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:43:17 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:43:39 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:35
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(26): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 35
+[23-Jun-2021 14:43:40 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:35
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(26): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 35
+[23-Jun-2021 14:43:42 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:43:51 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:43:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:43:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:43:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:43:54 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:43:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:44:17 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:44:17 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:44:18 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:44:19 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:44:22 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:44:28 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:44:39 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 19
+[23-Jun-2021 14:44:47 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:45
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(22): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 45
+[23-Jun-2021 14:48:27 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\filterInput() in /home/k79523/public_html/app/Controllers/IndexController.php:44
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(19): Controllers\IndexController->signIn()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 44
+[23-Jun-2021 14:57:41 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\set() in /home/k79523/public_html/app/Controllers/IndexController.php:42
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(23): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 42
+[23-Jun-2021 14:57:43 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function Controllers\set() in /home/k79523/public_html/app/Controllers/IndexController.php:42
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(23): Controllers\IndexController->signUp()
+#1 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#2 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#3 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#4 {main}
+  thrown in /home/k79523/public_html/app/Controllers/IndexController.php on line 42
+[25-Jun-2021 18:53:09 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 16
+[25-Jun-2021 22:32:04 Europe/Moscow] PHP Notice:  Undefined index: action in /home/k79523/public_html/app/Controllers/IndexController.php on line 16
+[25-Jun-2021 22:56:51 Europe/Moscow] PHP Notice:  Undefined index: sign_password in /home/k79523/public_html/app/Core/View.php on line 44
+[25-Jun-2021 22:56:51 Europe/Moscow] PHP Notice:  Undefined index: sign_password in /home/k79523/public_html/app/Core/View.php on line 44
+[25-Jun-2021 23:18:49 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/k79523/public_html/app/Controllers/IndexController.php on line 75
+[25-Jun-2021 23:18:51 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/k79523/public_html/app/Controllers/IndexController.php on line 75
+[25-Jun-2021 23:19:19 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/k79523/public_html/app/Controllers/IndexController.php on line 75
+[25-Jun-2021 23:19:20 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/k79523/public_html/app/Controllers/IndexController.php on line 75
+[25-Jun-2021 23:19:29 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class '\Controllers\IndexController' not found in /home/k79523/public_html/app/Core/App.php:40
+Stack trace:
+#0 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#1 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#2 {main}
+  thrown in /home/k79523/public_html/app/Core/App.php on line 40
+[25-Jun-2021 23:19:30 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:19:30 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:19:34 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:19:34 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:21:20 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:21:20 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:21:58 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:21:58 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:17 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:17 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:19 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:19 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:26 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:26 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:52 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:52 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:53 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:22:53 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:23:00 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:23:00 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:23:22 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:23:22 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:23:29 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:23:29 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:24:09 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:24:09 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:24:30 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:24:30 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:24:58 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:24:58 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:00 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:00 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:16 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:16 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:36 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:36 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:47 Europe/Moscow] PHP Notice:  Undefined variable: val in /home/k79523/public_html/app/Controllers/IndexController.php on line 64
+[25-Jun-2021 23:25:47 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:47 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:50 Europe/Moscow] PHP Notice:  Undefined variable: val in /home/k79523/public_html/app/Controllers/IndexController.php on line 64
+[25-Jun-2021 23:25:50 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:50 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:58 Europe/Moscow] PHP Notice:  Undefined variable: val in /home/k79523/public_html/app/Controllers/IndexController.php on line 64
+[25-Jun-2021 23:25:58 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:25:58 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:26:11 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:26:11 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/k79523/public_html/app/Controllers/IndexController.php on line 65
+[25-Jun-2021 23:26:30 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 67
+[25-Jun-2021 23:26:30 Europe/Moscow] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/k79523/public_html/app/Controllers/IndexController.php on line 67
+[25-Jun-2021 23:27:08 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 67
+[25-Jun-2021 23:27:08 Europe/Moscow] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/k79523/public_html/app/Controllers/IndexController.php on line 67
+[25-Jun-2021 23:27:31 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 67
+[25-Jun-2021 23:27:31 Europe/Moscow] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/k79523/public_html/app/Controllers/IndexController.php on line 67
+[25-Jun-2021 23:27:41 Europe/Moscow] PHP Notice:  Undefined variable: inputEmailParams in /home/k79523/public_html/app/Controllers/IndexController.php on line 67
+[25-Jun-2021 23:27:41 Europe/Moscow] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/k79523/public_html/app/Controllers/IndexController.php on line 67
+[25-Jun-2021 23:35:14 Europe/Moscow] PHP Warning:  password_hash() expects at least 2 parameters, 1 given in /home/k79523/public_html/app/Controllers/IndexController.php on line 83
+[25-Jun-2021 23:35:16 Europe/Moscow] PHP Warning:  password_hash() expects at least 2 parameters, 1 given in /home/k79523/public_html/app/Controllers/IndexController.php on line 83
+[25-Jun-2021 23:39:49 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class '\Models\Index' not found in /home/k79523/public_html/app/Core/Controller.php:49
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(49): Core\Controller->getModel('\\Models\\Index')
+#1 /home/k79523/public_html/app/Controllers/IndexController.php(27): Controllers\IndexController->signUp()
+#2 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#3 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#4 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#5 {main}
+  thrown in /home/k79523/public_html/app/Core/Controller.php on line 49
+[25-Jun-2021 23:39:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class '\Models\Index' not found in /home/k79523/public_html/app/Core/Controller.php:49
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(49): Core\Controller->getModel('\\Models\\Index')
+#1 /home/k79523/public_html/app/Controllers/IndexController.php(27): Controllers\IndexController->signUp()
+#2 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#3 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#4 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#5 {main}
+  thrown in /home/k79523/public_html/app/Core/Controller.php on line 49
+[25-Jun-2021 23:49:52 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Models\DB' not found in /home/k79523/public_html/app/Models/Customer.php:30
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(49): Models\Customer->newCustomer(Array)
+#1 /home/k79523/public_html/app/Controllers/IndexController.php(27): Controllers\IndexController->signUp()
+#2 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#3 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#4 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#5 {main}
+  thrown in /home/k79523/public_html/app/Models/Customer.php on line 30
+[25-Jun-2021 23:50:34 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'Models\DB' not found in /home/k79523/public_html/app/Models/Customer.php:30
+Stack trace:
+#0 /home/k79523/public_html/app/Controllers/IndexController.php(49): Models\Customer->newCustomer(Array)
+#1 /home/k79523/public_html/app/Controllers/IndexController.php(27): Controllers\IndexController->signUp()
+#2 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#3 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#4 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#5 {main}
+  thrown in /home/k79523/public_html/app/Models/Customer.php on line 30
+[25-Jun-2021 23:52:22 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/k79523/public_html/app/Core/DB.php:30
+Stack trace:
+#0 /home/k79523/public_html/app/Core/DB.php(30): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home/k79523/public_html/app/Core/DB.php(46): Core\DB->getConnection()
+#2 /home/k79523/public_html/app/Core/Model.php(76): Core\DB->query('INSERT INTO `us...', Array)
+#3 /home/k79523/public_html/app/Models/Customer.php(31): Core\Model->initQuery('INSERT INTO `us...', Array)
+#4 /home/k79523/public_html/app/Controllers/IndexController.php(49): Models\Customer->newCustomer(Array)
+#5 /home/k79523/public_html/app/Controllers/IndexController.php(27): Controllers\IndexController->signUp()
+#6 /home/k79523/public_html/app/Core/App.php(46): Controllers\IndexController->indexAction()
+#7 /home/k79523/public_html/app/bootstrap.php(7): Core\App::run()
+#8 /home/k79523/public_html/index.php(4): include('/home/k79523/pu...')
+#9 {main}
+  thrown in /home/k79523/public_html/app/Core/DB.php on line 30
+[25-Jun-2021 23:59:29 Europe/Moscow] PHP Notice:  Undefined variable: item in /home/k79523/public_html/app/Core/Model.php on line 84
+[26-Jun-2021 00:18:10 Europe/Moscow] PHP Notice:  Undefined index: password in /home/k79523/public_html/app/Controllers/IndexController.php on line 144
+[26-Jun-2021 00:18:10 Europe/Moscow] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/k79523/public_html/app/Controllers/IndexController.php on line 144
+[26-Jun-2021 00:18:46 Europe/Moscow] PHP Warning:  password_verify() expects exactly 2 parameters, 1 given in /home/k79523/public_html/app/Controllers/IndexController.php on line 144
+[26-Jun-2021 00:21:04 Europe/Moscow] PHP Notice:  Undefined variable: customer in /home/k79523/public_html/app/Controllers/IndexController.php on line 117
+[26-Jun-2021 00:21:06 Europe/Moscow] PHP Notice:  Undefined variable: customer in /home/k79523/public_html/app/Controllers/IndexController.php on line 117

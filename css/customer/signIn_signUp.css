@@ -1,0 +1,244 @@
+.section_customer{
+	display: flex;
+	min-height: 50%;
+	background: rgb(0,0,0,0.1);
+	flex-direction: column;
+	align-items: center;
+}
+
+.section_customer .customer_head{
+	margin-top: 20px;
+	font-size: 24px;
+	color: rgb(0,0,0,0.8);
+	font-weight: bold;
+}
+
+.section_customer form{
+	background: white;
+	margin-bottom: 40px;
+	border-radius: 3px;
+	margin-top: 20px;
+	padding: 60px 300px;
+	display: flex;
+	width: 45%;
+	align-items: start;
+	flex-direction: column;
+}
+
+.section_customer form .customer_form_head{
+	font-size: 18px;
+	width: auto;
+	padding: 0 0 5px 0;
+	color: rgb(0,0,0,0.8);
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+
+.section_customer form .customer_form_column{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.section_customer form .customer_form_column #signIn_email_warning, .section_customer form .customer_form_column #signIn_password_warning{
+	display: none;
+	font-weight: normal;
+	text-align: right;
+	color: red;
+	
+}
+
+.section_customer form .customer_form_column #signUp_email_warning,
+.section_customer form .customer_form_column #signUp_password_warning,
+.section_customer form .customer_form_column #signUp_name_warning,
+.section_customer form .customer_form_column #signUp_surname_warning
+{
+	display: none;
+	font-weight: normal;
+	text-align: right;
+	color: red;	
+}
+
+.section_customer form .customer_form_column .customer_form_right_margin{
+	margin-right: 5%;
+}
+
+.section_customer form .customer_form_column div{
+	display: flex;
+	margin-bottom: 60px;
+	flex: 1;
+	flex-direction: column;
+	width: 100%;
+}
+
+.section_customer form .customer_form_column div input{
+	padding: 10px 5px;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	border-bottom: 1px solid #999;
+	
+}
+
+.section_customer form .customer_form_column div span{
+	color: rgb(0,0,0,0.8);
+	font-size: 14px;
+	padding: 10px 5px;
+	font-weight: bold;
+}
+
+.section_customer form .customer_buttons{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.section_customer form .customer_buttons button, .section_customer form .customer_buttons a{
+	border: none;
+	outline: none;
+	width: 35%;
+	white-space: nowrap;
+	color: black;
+	padding: 5px;
+	text-align: center;
+	background: white;
+	background: #ffe0a6;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: all .4s ease;
+	border: 1px solid #999;	
+}
+
+.section_customer form .customer_buttons a{
+	background: white;
+}
+
+.section_customer form .customer_buttons a:hover{
+	background: #ffe0a6;
+}
+
+.section_customer form .custom_password_reload{
+	width: :30%;
+	font-size: 16px;
+	color: rgb(0,0,0,0.8);
+	margin-top: 25px;
+	padding: 5px 0;
+	transition: all .4s ease;
+	margin-left: 35%;
+	border-bottom: 2px dashed rgb(0,0,0,0.8);
+}
+
+.section_customer form .custom_password_reload:hover{
+	color: black;
+	border-bottom: 2px dashed black;
+}
+
+@media screen and (max-width: 1200px){
+
+	.section_customer form{
+		padding: 50px 250px;
+	}
+
+	.section_customer form .customer_form_head{
+		margin-bottom: 50px;
+	}
+
+	.section_customer form .customer_form_column div{
+		margin-bottom: 50px;
+	}
+
+}
+
+@media screen and (max-width: 1100px){
+
+	.section_customer form{
+		padding: 40px 220px;
+	}
+
+	.section_customer form .customer_form_head{
+		margin-bottom: 40px;
+	}
+
+	.section_customer form .customer_form_column div{
+		margin-bottom: 40px;
+	}
+
+	.section_customer .customer_head{
+		margin:  15px 0 10px 0;
+	}
+
+}
+
+@media screen and (max-width: 900px){
+
+	.section_customer form{
+		padding: 30px 180px;
+		width: 50%;
+	}
+
+	.section_customer form .customer_form_head{
+		margin-bottom: 30px;
+	}
+
+	.section_customer form .customer_form_column div{
+		margin-bottom: 30px;
+	}
+
+	.section_customer form .customer_buttons a, .section_customer form .customer_buttons button{
+		width: 40%;
+	}
+
+	.section_customer form .customer_form_column{
+		flex-direction: column;
+
+	}
+}
+
+@media screen and (max-width: 750px){
+
+	.section_customer form{
+		margin-top: 5px;
+		padding: 30px;
+		width: 90%;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	.section_customer form .customer_buttons a{
+		width: 45%;
+	}
+
+	.section_customer form .customer_buttons button{
+		width: 42%;
+	}
+
+	.section_customer .customer_head{
+		font-size: 22px;
+	}
+
+}
+
+@media screen and (max-width: 400px){
+
+	.section_customer form .customer_buttons a{
+		font-size: 14px;
+	}
+
+	.section_customer form .customer_buttons button{
+		font-size: 14px;
+	}
+
+	.section_customer form .custom_password_reload{
+		font-size: 14px;
+	}
+
+	.section_customer .customer_head{
+		margin:  15px 10px 10px 10px;
+	}
+
+}

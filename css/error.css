@@ -1,0 +1,10 @@
+.error_section{
+	display: flex;
+	min-height: 600px;
+}
+
+.error_section h1{
+	font-size: 30px;
+	margin-top: 2%;
+	margin-left: 3%;
+}
